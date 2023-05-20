@@ -82,7 +82,7 @@ li {
 .social-icons:hover {
 box-shadow: 0 0 10px 5px yellowgreen;
 }
-.hero {
+#hero {
     grid-area: 2/1/6/7;
     background-color: rgb(236, 235, 235);
     color: white;
