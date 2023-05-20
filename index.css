@@ -83,7 +83,7 @@ li {
 box-shadow: 0 0 10px 5px yellowgreen;
 }
 #hero {
-    grid-area: 2/1/6/7;
+    grid-area: 2/1/5/7;
     background-color: rgb(236, 235, 235);
     color: white;
     display: flex;
@@ -91,11 +91,58 @@ box-shadow: 0 0 10px 5px yellowgreen;
     align-items: center;
 }
 
+#technologies {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: white;
+}
+#tech-body {
+   
+}
+#cards .card {
+    aspect-ratio: 5 / 7;
+}
+#cards, .bg-card {
+    width: 30vmin;
+}
+.card {
+    background-color: #8e6d6d;
+    position: absolute;
+}
+.bg-card{
+    width: 30vmin;
+    border-radius: 1vmin;
+}
+.bg-card:nth-child(1) {
+    background-color: aqua;
+    transform: translateX(-10%) rotate(-1deg);
+}
+.bg-card:nth-child(2) {
+    transform: rotate(2deg);
+    background-color: azure;
+}
+.bg-card:nth-child(3) {
+    transform: translate(-6%) rotate(-3deg);
+}
+.bg-card:nth-child(4) {
+    background-color: beige;
+    transform: translate(10%, 3%) rotate(5deg);
+}
+.sm-card {
+    width: 12vmin;
+    border-radius: 2vmin;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+    background-color: blue;
+}
 #about {
     display: grid;
-    grid-template-rows: repeat(10, 1fr);
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 40px repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
     height: 100vh;
-    background-color: red;
+    background-color: gray;
 }
+
