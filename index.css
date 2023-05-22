@@ -6,7 +6,7 @@ body {
     grid-template-rows: 40px repeat(5, 1fr);
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
-    height: 100vh;
+    height: 70vh;
     background-color: black;
 }
 nav {
@@ -83,8 +83,8 @@ li {
 box-shadow: 0 0 10px 5px yellowgreen;
 }
 #hero {
-    grid-area: 2/1/5/7;
-    background-color: rgb(236, 235, 235);
+    grid-area: 2/1/7/7;
+    background-color: rgb(0, 14, 0);
     color: white;
     display: flex;
     justify-content: center;
@@ -93,9 +93,14 @@ box-shadow: 0 0 10px 5px yellowgreen;
 
 #technologies {
     display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     place-items: center;
     height: 100vh;
     background-color: white;
+}
+#technologies h2 {
+    grid-area: 1/1/1/2;
 }
 #tech-body {
    
