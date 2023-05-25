@@ -174,6 +174,11 @@ box-shadow: 0 0 10px 5px yellowgreen;
 #cards:hover > .sm-card:nth-child(7) {
     transform: translate(-280%, 240%) rotate(-15deg);
 }
+.hide {
+    background-color: brown;
+    height: 400px;
+    width: 400px;
+}
 #about {
     display: grid;
     grid-template-rows: 40px repeat(5, 1fr);
