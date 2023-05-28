@@ -181,6 +181,9 @@ box-shadow: 0 0 10px 5px yellowgreen;
     width: 400px;
     left: 35%;
 }
+.hide:hover {
+    visibility: hidden;
+}
 #projects {
     display: grid;
     grid-template-rows: repeat(5, 1fr);
