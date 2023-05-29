@@ -35,7 +35,7 @@ a {
 .nav-items::before, .nav-items::after {
     background: yellowgreen;
     border-radius: 16px;
-    bottom: -12px;
+    bottom: -2px;
     content: "";
     display: block;
     height: 2px;
